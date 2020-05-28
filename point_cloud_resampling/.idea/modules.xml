@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/bathy_trim.iml" filepath="$PROJECT_DIR$/.idea/bathy_trim.iml" />
+      <module fileurl="file://D:/brain/codes/python_packages/big_brain_data_gen/.idea/big_brain_data_gen.iml" filepath="D:/brain/codes/python_packages/big_brain_data_gen/.idea/big_brain_data_gen.iml" />
+      <module fileurl="file://D:/personal/personal_projects/jovana/.idea/jovana.iml" filepath="D:/personal/personal_projects/jovana/.idea/jovana.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/point_cloud_resampling.iml" filepath="$PROJECT_DIR$/.idea/point_cloud_resampling.iml" />
     </modules>
   </component>
 </project>
