@@ -1,13 +1,5 @@
-# -*- coding: utf-8 -*-
-
-# Form implementation generated from reading ui file 'ui_resampling_app.ui'
-#
-# Created: Tue May 26 21:27:50 2020
-#      by: pyside-uic 0.2.15 running on PySide 1.2.4
-#
-# WARNING! All changes made in this file will be lost!
-
 from PySide import QtCore, QtGui
+
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -147,23 +139,41 @@ class Ui_MainWindow(object):
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(QtGui.QApplication.translate("MainWindow", "Resampling Point Cloud Data (PCD)", None, QtGui.QApplication.UnicodeUTF8))
-        self.input_groupBox.setTitle(QtGui.QApplication.translate("MainWindow", "Inputs", None, QtGui.QApplication.UnicodeUTF8))
-        self.load_pushButton.setText(QtGui.QApplication.translate("MainWindow", "Load PCD", None, QtGui.QApplication.UnicodeUTF8))
-        self.label.setText(QtGui.QApplication.translate("MainWindow", "Resampling Factor", None, QtGui.QApplication.UnicodeUTF8))
-        self.output_groupBox.setTitle(QtGui.QApplication.translate("MainWindow", "Outputs", None, QtGui.QApplication.UnicodeUTF8))
-        self.output_pushButton.setText(QtGui.QApplication.translate("MainWindow", "Output Location", None, QtGui.QApplication.UnicodeUTF8))
-        self.run_pushButton.setText(QtGui.QApplication.translate("MainWindow", "Run Resampling", None, QtGui.QApplication.UnicodeUTF8))
-        self.plot_groupBox.setTitle(QtGui.QApplication.translate("MainWindow", "Plots", None, QtGui.QApplication.UnicodeUTF8))
-        self.plotOriginal_pushButton.setText(QtGui.QApplication.translate("MainWindow", "Plot Original PCD", None, QtGui.QApplication.UnicodeUTF8))
-        self.plotResampled_pushButton.setText(QtGui.QApplication.translate("MainWindow", "Plot Resampled PCD", None, QtGui.QApplication.UnicodeUTF8))
-        self.report_groupBox.setTitle(QtGui.QApplication.translate("MainWindow", "Report", None, QtGui.QApplication.UnicodeUTF8))
-        self.origSampleSize_label.setText(QtGui.QApplication.translate("MainWindow", "Original sample size:", None, QtGui.QApplication.UnicodeUTF8))
-        self.origMinMax_label.setText(QtGui.QApplication.translate("MainWindow", "Original min/max:", None, QtGui.QApplication.UnicodeUTF8))
-        self.resSampleSize_label.setText(QtGui.QApplication.translate("MainWindow", "Resampled sample size:", None, QtGui.QApplication.UnicodeUTF8))
-        self.resMinMax_label.setText(QtGui.QApplication.translate("MainWindow", "Resampled min/max:", None, QtGui.QApplication.UnicodeUTF8))
-        self.export_pushButton.setText(QtGui.QApplication.translate("MainWindow", "Export Report", None, QtGui.QApplication.UnicodeUTF8))
-        self.groupBox.setTitle(QtGui.QApplication.translate("MainWindow", "Copyright", None, QtGui.QApplication.UnicodeUTF8))
-        self.name_label.setText(QtGui.QApplication.translate("MainWindow", "Prepared by: Reza Shafiei", None, QtGui.QApplication.UnicodeUTF8))
-        self.date_label.setText(QtGui.QApplication.translate("MainWindow", "Date:", None, QtGui.QApplication.UnicodeUTF8))
-
+        MainWindow.setWindowTitle(QtGui.QApplication.translate("MainWindow", "Resampling Point Cloud Data (PCD)", None,
+                                                               QtGui.QApplication.UnicodeUTF8))
+        self.input_groupBox.setTitle(
+            QtGui.QApplication.translate("MainWindow", "Inputs", None, QtGui.QApplication.UnicodeUTF8))
+        self.load_pushButton.setText(
+            QtGui.QApplication.translate("MainWindow", "Load PCD", None, QtGui.QApplication.UnicodeUTF8))
+        self.label.setText(
+            QtGui.QApplication.translate("MainWindow", "Resampling Factor", None, QtGui.QApplication.UnicodeUTF8))
+        self.output_groupBox.setTitle(
+            QtGui.QApplication.translate("MainWindow", "Outputs", None, QtGui.QApplication.UnicodeUTF8))
+        self.output_pushButton.setText(
+            QtGui.QApplication.translate("MainWindow", "Output Location", None, QtGui.QApplication.UnicodeUTF8))
+        self.run_pushButton.setText(
+            QtGui.QApplication.translate("MainWindow", "Run Resampling", None, QtGui.QApplication.UnicodeUTF8))
+        self.plot_groupBox.setTitle(
+            QtGui.QApplication.translate("MainWindow", "Plots", None, QtGui.QApplication.UnicodeUTF8))
+        self.plotOriginal_pushButton.setText(
+            QtGui.QApplication.translate("MainWindow", "Plot Original PCD", None, QtGui.QApplication.UnicodeUTF8))
+        self.plotResampled_pushButton.setText(
+            QtGui.QApplication.translate("MainWindow", "Plot Resampled PCD", None, QtGui.QApplication.UnicodeUTF8))
+        self.report_groupBox.setTitle(
+            QtGui.QApplication.translate("MainWindow", "Report", None, QtGui.QApplication.UnicodeUTF8))
+        self.origSampleSize_label.setText(
+            QtGui.QApplication.translate("MainWindow", "Original sample size:", None, QtGui.QApplication.UnicodeUTF8))
+        self.origMinMax_label.setText(
+            QtGui.QApplication.translate("MainWindow", "Original min/max:", None, QtGui.QApplication.UnicodeUTF8))
+        self.resSampleSize_label.setText(
+            QtGui.QApplication.translate("MainWindow", "Resampled sample size:", None, QtGui.QApplication.UnicodeUTF8))
+        self.resMinMax_label.setText(
+            QtGui.QApplication.translate("MainWindow", "Resampled min/max:", None, QtGui.QApplication.UnicodeUTF8))
+        self.export_pushButton.setText(
+            QtGui.QApplication.translate("MainWindow", "Export Report", None, QtGui.QApplication.UnicodeUTF8))
+        self.groupBox.setTitle(
+            QtGui.QApplication.translate("MainWindow", "Copyright", None, QtGui.QApplication.UnicodeUTF8))
+        self.name_label.setText(QtGui.QApplication.translate("MainWindow", "Prepared by: Reza Shafiei", None,
+                                                             QtGui.QApplication.UnicodeUTF8))
+        self.date_label.setText(
+            QtGui.QApplication.translate("MainWindow", "Date:", None, QtGui.QApplication.UnicodeUTF8))
